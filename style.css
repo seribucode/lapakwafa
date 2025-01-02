@@ -103,6 +103,15 @@ header .buttonHero {
     border-radius: 5px;
     margin-bottom: -10px;
 }
+
+.stockInfoSisa {
+    font-size: 13px;
+    color: rgb(255, 174, 0);
+    background-color: #393e46;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
 .productInfo {
     display: flex;
     justify-content: space-between;
