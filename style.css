@@ -37,7 +37,7 @@ h4 {
 
 header img {
     position: absolute;
-    width: 93%;
+    width: 100%;
     box-shadow: 10px 10px 50px #393e46;
     object-fit: cover;
     text-align: center;
