@@ -4,6 +4,7 @@ html {
 }
 body {
     font-family: "Poppins", sans-serif;
+    /* max-width: 640px; */
     padding: 0;
     margin: 0;
 }
@@ -31,6 +32,17 @@ h2 {
 h4 {
     font-size: 20px;
     color: #393e46;
+}
+
+header img {
+    position: absolute;
+    width: 93%;
+    box-shadow: 10px 10px 50px #393e46;
+    object-fit: cover;
+    text-align: center;
+    left: 20px;
+    top: 0px;
+    z-index: 10;
 }
 
 header .buttonHero {
