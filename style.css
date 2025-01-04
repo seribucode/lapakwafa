@@ -1,24 +1,42 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
 }
 body {
     font-family: "Poppins", sans-serif;
-    /* max-width: 640px; */
+    max-width: 640px;
     padding: 0;
     margin: 0;
 }
-header {
-    position: relative;
+.banner {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.banner-sale img {
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 100;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
     background-color: #f7f7f7;
-    margin-top: 0;
-
-    padding: 160px 0;
+    padding: 30px 0;
 }
 
 p {
@@ -35,17 +53,6 @@ h4 {
     color: #393e46;
 }
 
-header img {
-    position: absolute;
-    width: 100%;
-    box-shadow: 10px 10px 50px #393e46;
-    object-fit: cover;
-    text-align: center;
-    left: 20px;
-    top: 0px;
-    z-index: 10;
-}
-
 header .buttonHero {
     margin-top: 50px;
 }
@@ -55,7 +62,7 @@ header .buttonHero {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .hero h1 {
@@ -120,6 +127,14 @@ header .buttonHero {
 .stockInfoSisa {
     font-size: 13px;
     color: rgb(255, 174, 0);
+    background-color: #393e46;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+.stockHabis {
+    font-size: 13px;
+    color: rgb(255, 0, 13);
     background-color: #393e46;
     border-radius: 5px;
     margin-bottom: -10px;
